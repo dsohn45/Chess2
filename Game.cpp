@@ -65,8 +65,13 @@ int Game::make_move(Position start, Position end) {
 // Execute the main gameplay loop.
 void Game::run() {
 
+    
 
 }
+
+void Game::board() const{
+  
+
 
 
 

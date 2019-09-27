@@ -15,9 +15,7 @@ public:
     // where a value >= 0 means valid, < 0 means invalid.
     // also populates a vector of Positions with the trajectory
     // followed by the Piece from start to end
-    virtual int valid_move_shape(Position start, Position end, std::vector<Position>& trajectory) const override {
-        return SUCCESS;
-    }
+    virtual int valid_move_shape(Position start, Position end, std::vector<Position>& trajectory) const override;
 
 };
 
@@ -33,9 +31,8 @@ public:
     // where a value >= 0 means valid, < 0 means invalid.
     // also populates a vector of Positions with the trajectory
     // followed by the Piece from start to end
-    virtual int valid_move_shape(Position start, Position end, std::vector<Position>& trajectory) const override {
-        return SUCCESS;
-    }
+    virtual int valid_move_shape(Position start, Position end, std::vector<Position>& trajectory) const override;
+
 };
 
 
@@ -51,9 +48,7 @@ public:
     // where a value >= 0 means valid, < 0 means invalid.
     // also populates a vector of Positions with the trajectory
     // followed by the Piece from start to end
-    virtual int valid_move_shape(Position start, Position end, std::vector<Position>& trajectory) const override {
-        return SUCCESS;
-    }
+    virtual int valid_move_shape(Position start, Position end, std::vector<Position>& trajectory) const override;
 };
 
 
@@ -68,9 +63,7 @@ public:
     // where a value >= 0 means valid, < 0 means invalid.
     // also populates a vector of Positions with the trajectory
     // followed by the Piece from start to end
-    virtual int valid_move_shape(Position start, Position end, std::vector<Position>& trajectory) const override {
-        return SUCCESS;
-    }
+    virtual int valid_move_shape(Position start, Position end, std::vector<Position>& trajectory) const override;
 };
 
 
@@ -85,9 +78,7 @@ public:
     // where a value >= 0 means valid, < 0 means invalid.
     // also populates a vector of Positions with the trajectory
     // followed by the Piece from start to end
-    virtual int valid_move_shape(Position start, Position end, std::vector<Position>& trajectory) const override {
-        return SUCCESS;
-    }
+    virtual int valid_move_shape(Position start, Position end, std::vector<Position>& trajectory) const override;
 };
 
 
@@ -102,9 +93,7 @@ public:
     // where a value >= 0 means valid, < 0 means invalid.
     // also populates a vector of Positions with the trajectory
     // followed by the Piece from start to end
-    virtual int valid_move_shape(Position start, Position end, std::vector<Position>& trajectory) const override {
-        return SUCCESS;
-    }
+    virtual int valid_move_shape(Position start, Position end, std::vector<Position>& trajectory) const override;
 };
 
 
