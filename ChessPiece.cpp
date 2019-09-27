@@ -37,12 +37,9 @@ int King::valid_move_shape(Position start, Position end, std::vector<Position>& 
 	diffx = abs(start.x - end.x)
 	diffy = abs(start.y - end.y)
 
-	if (diffx == 1 && diffy == 0) {
-		return SUCCESS;
-	}
-	if (diffx == 0 && diffy == 1) {
-		return SUCESS;
-	}
+	if ((diffx == 1 || diffx == 0) && (diffy == 1 || diffy == 0)){
+		if (!(diffx == 0 && diffy == 0)) {
+			return SUCESS;
 	return MOVE_ERROR_ILLEGAL;
 }
 
